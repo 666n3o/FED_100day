@@ -1,0 +1,19 @@
+/* full-week.html css */
+
+h1 {
+    font-size: 50px;
+    color: rgb(190, 95, 95);
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+    color: rebeccapurple;
+}
+
+#goals {
+    font-size: 30px;
+    font-weight: bold;
+}
