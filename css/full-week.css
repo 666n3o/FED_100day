@@ -1,19 +1,69 @@
 /* full-week.html css */
 
+header {
+    margin-bottom: 64px;
+}
+
 h1 {
     font-size: 50px;
     color: rgb(190, 95, 95);
     font-family: "Oswald", sans-serif;
+    margin: 12px 0;
 }
 
 p {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: bold;
     font-family: "Fira Sans", sans-serif;
-    color: rebeccapurple;
+    color: rgb(92, 89, 94);
 }
 
-#goals {
-    font-size: 30px;
+header p {
+    margin-bottom: 24px;
+}
+
+ol {
+    list-style-type: none;
+    color: rgb(251, 255, 0);
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+
+li {
+    margin: 30px;
+    padding: 16px;
+    list-style-type: none;
+    background-color: rgb(223, 136, 124);
+    border-radius: 6px;
+}
+
+a {
+    padding: 12px 48px;
+/*     border: 8px solid rgb(215, 174, 193); */
+    font-size: 24px;
+    color: white;
     font-weight: bold;
+    border-radius: 4px;
+    background-color: rgb(205, 51, 51);
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(150, 63, 63);
+}
+
+h2 {
+    color: rgb(78, 13, 5);
+    font-family: 'Oswald', sans-serif;
+}
+
+main p {
+    margin: 12px;
+    color: rgb(71, 29, 22);
+    font-weight: normal;
+}
+
+.highlight-goal {
+    background-color: rgb(218, 103, 87);
 }
